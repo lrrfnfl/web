@@ -1,0 +1,3 @@
+2022-01-10 21:41:13,462 [http-bio-20000-exec-5] FATAL [getServerConfig]: Cannot create PoolableConnectionFactory (Connection to 127.0.0.1:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.)
+2022-01-10 21:41:13,571 [http-bio-20000-exec-6] FATAL [getServerConfig]: Cannot create PoolableConnectionFactory (Connection to 127.0.0.1:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.)
+2022-01-10 21:41:14,016 [http-bio-20000-exec-21] FATAL [getServerConfig]: Cannot create PoolableConnectionFactory (Connection to 127.0.0.1:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.)
