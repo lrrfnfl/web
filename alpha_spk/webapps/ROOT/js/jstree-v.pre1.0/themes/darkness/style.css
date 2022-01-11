@@ -1,0 +1,78 @@
+/*
+ * jsTree darkness theme 1.0
+ * Supported features: dots/no-dots, icons/no-icons, focused, loading
+ * Supported plugins: ui (hovered, clicked), checkbox, contextmenu, search
+ */
+
+.jstree-darkness li,
+.jstree-darkness ins { background-image:url("d.png"); background-repeat:no-repeat; background-color:transparent; }
+.jstree-darkness li { background-position:-90px 0; background-repeat:repeat-y; min-height:22px; line-height:22px;}
+.jstree-darkness li.jstree-last { background:transparent; }
+.jstree-darkness .jstree-open > ins { background-position:-72px 0; }
+.jstree-darkness .jstree-closed > ins { background-position:-54px 0; }
+.jstree-darkness .jstree-leaf > ins { background-position:-36px 0; }
+
+.jstree-darkness .jstree-hovered { background-color:#F8ECE0; border:1px solid #F8ECE0; padding:0 2px 0 1px; color:black; }
+.jstree-darkness .jstree-clicked { background-color:#f58400; border:1px solid #f58400; padding:0 2px 0 1px; color:white; }
+.jstree-darkness a {color:white;}
+.jstree-darkness a .jstree-icon { background-position:-56px -19px; }
+.jstree-darkness .jstree-open > a .jstree-icon { background-position:-56px -36px; }
+.jstree-darkness a.jstree-loading .jstree-icon { background:url("throbber.gif") center center no-repeat !important; }
+
+.jstree-darkness .jstree-focused { background:white; }
+
+.jstree-darkness .jstree-no-dots li,
+.jstree-darkness .jstree-no-dots .jstree-leaf > ins { background:transparent; }
+.jstree-darkness .jstree-no-dots .jstree-open > ins { background-position:-18px 0; }
+.jstree-darkness .jstree-no-dots .jstree-closed > ins { background-position:0 0; }
+
+.jstree-darkness .jstree-no-icons a .jstree-icon { display:none; }
+
+.jstree-darkness .jstree-search { font-style:italic; }
+
+.jstree-darkness .jstree-no-icons .jstree-checkbox { display:inline-block; }
+.jstree-darkness .jstree-no-checkboxes .jstree-checkbox { display:none !important; }
+.jstree-darkness .jstree-checked > a > .jstree-checkbox { background-position:-38px -19px; }
+.jstree-darkness .jstree-unchecked > a > .jstree-checkbox { background-position:-2px -19px; }
+.jstree-darkness .jstree-undetermined > a > .jstree-checkbox { background-position:-20px -19px; }
+.jstree-darkness .jstree-checked > a > .jstree-checkbox:hover { background-position:-38px -37px; }
+.jstree-darkness .jstree-unchecked > a > .jstree-checkbox:hover { background-position:-2px -37px; }
+.jstree-darkness .jstree-undetermined > a > .jstree-checkbox:hover { background-position:-20px -37px; }
+
+#vakata-dragged.jstree-darkness ins { background:transparent !important; }
+#vakata-dragged.jstree-darkness .jstree-ok { background:url("d.png") -2px -53px no-repeat !important; }
+#vakata-dragged.jstree-darkness .jstree-invalid { background:url("d.png") -18px -53px no-repeat !important; }
+#jstree-marker.jstree-darkness { background:url("d.png") -41px -57px no-repeat !important; text-indent:-100px; }
+
+.jstree-darkness a.jstree-search { color:aqua; }
+.jstree-darkness .jstree-locked a { color:silver; cursor:default; }
+
+#vakata-contextmenu.jstree-darkness-context,
+#vakata-contextmenu.jstree-darkness-context li ul { background:#f0f0f0; border:1px solid #979797; -moz-box-shadow: 1px 1px 2px #999; -webkit-box-shadow: 1px 1px 2px #999; box-shadow: 1px 1px 2px #999; }
+#vakata-contextmenu.jstree-darkness-context li { }
+#vakata-contextmenu.jstree-darkness-context a { color:black; }
+#vakata-contextmenu.jstree-darkness-context a:hover,
+#vakata-contextmenu.jstree-darkness-context .vakata-hover > a { padding:0 5px; background:#e8eff7; border:1px solid #aecff7; color:black; -moz-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; }
+#vakata-contextmenu.jstree-darkness-context li.jstree-contextmenu-disabled a,
+#vakata-contextmenu.jstree-darkness-context li.jstree-contextmenu-disabled a:hover { color:silver; background:transparent; border:0; padding:1px 4px; }
+#vakata-contextmenu.jstree-darkness-context li.vakata-separator { background:white; border-top:1px solid #e0e0e0; margin:0; }
+#vakata-contextmenu.jstree-darkness-context li ul { margin-left:-4px; }
+
+/* IE6 BEGIN */
+.jstree-darkness li,
+.jstree-darkness ins,
+#vakata-dragged.jstree-darkness .jstree-invalid,
+#vakata-dragged.jstree-darkness .jstree-ok,
+#jstree-marker.jstree-darkness { _background-image:url("d.gif"); }
+.jstree-darkness .jstree-open ins { _background-position:-72px 0; }
+.jstree-darkness .jstree-closed ins { _background-position:-54px 0; }
+.jstree-darkness .jstree-leaf ins { _background-position:-36px 0; }
+.jstree-darkness .jstree-open a ins.jstree-icon { _background-position:-56px -36px; }
+.jstree-darkness .jstree-closed a ins.jstree-icon { _background-position:-56px -19px; }
+.jstree-darkness .jstree-leaf a ins.jstree-icon { _background-position:-56px -19px; }
+#vakata-contextmenu.jstree-darkness-context ins { _display:none; }
+#vakata-contextmenu.jstree-darkness-context li { _zoom:1; }
+.jstree-darkness .jstree-undetermined a .jstree-checkbox { _background-position:-20px -19px; }
+.jstree-darkness .jstree-checked a .jstree-checkbox { _background-position:-38px -19px; }
+.jstree-darkness .jstree-unchecked a .jstree-checkbox { _background-position:-2px -19px; }
+/* IE6 END */
