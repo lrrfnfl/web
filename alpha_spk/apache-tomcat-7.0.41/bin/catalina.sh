@@ -96,7 +96,7 @@
 #
 # $Id: catalina.sh 1449412 2013-02-23 21:31:48Z kkolinko $
 # -----------------------------------------------------------------------------
-
+export JAVA_HOME=/usr/local/java/jdk1.7.0_25
 # OS specific support.  $var _must_ be set to either true or false.
 cygwin=false
 darwin=false
