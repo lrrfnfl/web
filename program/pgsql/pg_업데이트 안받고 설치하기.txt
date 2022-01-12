@@ -1,0 +1,38 @@
+centos 6
+
+a.	rpm -Uvh pgdg-redhat92-9.2-7.noarch.rpm
+b.	rpm -ivh postgresql92-libs-9.2.7-1PGDG.rhel6.x86_64.rpm
+c.	rpm -ivh postgresql92-9.2.7-1PGDG.rhel6.x86_64.rpm
+d.	rpm -ivh postgresql92-server-9.2.7-1PGDG.rhel6.x86_64.rpm
+e.	rpm -ivh postgresql92-devel-9.2.7-1PGDG.rhel6.x86_64.rpm
+f.	rpm -ivh uuid-1.6.1-10.el6.x86_64.rpm
+g.	rpm -ivh postgresql92-contrib-9.2.7-1PGDG.rhel6.x86_64.rpm
+
+
+
+centos 7
+
+
+1. rpm -Uvh postgresql96-libs-9.6.16-2PGDG.rhel7.x86_64.rpm
+2. rpm -Uvh postgresql96-9.6.16-2PGDG.rhel7.x86_64.rpm
+3. rpm -Uvh postgresql96-devel-9.6.16-2PGDG.rhel7.x86_64.rpm
+4. rpm -Uvh postgresql96-contrib-9.6.16-2PGDG.rhel7.x86_64.rpm
+5. rpm -Uvh postgresql96-docs-9.6.16-2PGDG.rhel7.x86_64.rpm
+6. rpm -Uvh postgresql96-server-9.6.16-2PGDG.rhel7.x86_64.rpm
+
+/usr/pgsql-9.6/bin/postgresql96-setup initdb
+
+
+- 9.6.22
+
+1. rpm -Uvh postgresql96-libs-9.6.22-1PGDG.rhel7.x86_64.rpm
+2. rpm -Uvh postgresql96-9.6.22-1PGDG.rhel7.x86_64.rpm
+3. rpm -Uvh postgresql96-devel-9.6.22-1PGDG.rhel7.x86_64.rpm
+4. rpm -Uvh postgresql96-server-9.6.22-1PGDG.rhel7.x86_64.rpm
+5. rpm -Uvh postgresql96-docs-9.6.22-1PGDG.rhel7.x86_64.rpm
+6. rpm -Uvh postgresql96-contrib-9.6.22-1PGDG.rhel7.x86_64.rpm
+
+
+
+postgres 계정 비번 변경
+ALTER USER postgres WITH PASSWORD 'tpdlvm@1234';
